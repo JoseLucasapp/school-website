@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+:root {
+  --color1: #BFAEBB;
+  --color2: #978FA8;
+  --color3: #B39EB4;
+  --color4: #CCC6CA;
+  --color5: #DDD8D4;
+}

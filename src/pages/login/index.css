@@ -1,0 +1,164 @@
+.login-main {
+    background-color: var(--color2);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-square {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+}
+
+.login-image {
+    background-color: var(--color1);
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-image .image {
+    width: 100%;
+    height: 50vh;
+    margin-top: 5vh;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.login-image .image img {
+    width: 20vw;
+    height: 50vh;
+}
+
+.login-image .image-text {
+    width: 30vw;
+}
+
+.login-image .image-text p {
+    font-size: 15px;
+    word-break: break-all;
+}
+
+.login-image .image-text #title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.login-details {
+    background-color: var(--color5);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 35vh;
+    align-items: center;
+}
+
+.login-form form label {
+    margin-top: 2vh;
+    text-align: left;
+    font-size: 13px;
+    margin-right: 72%;
+    color: var(--color2);
+}
+
+.login-form form #email-label {
+    margin-right: 75%;
+}
+
+.login-form form input {
+    width: 95%;
+    background-color: var(--color5);
+    border: 1px solid transparent;
+    border-bottom: 0.5px solid var(--color2);
+    height: 10vh;
+    font-size: 20px;
+}
+
+
+.login-form p {
+    font-size: 11px;
+    cursor: pointer;
+    margin-left: 55%;
+    color: var(--color2);
+}
+
+.login-form button {
+    width: 50%;
+    height: 10vh;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: #292929;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+
+    .login-image {
+        display: none;
+    }
+
+    .login-square {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .login-details {
+        width: 100vw;
+    }
+
+    .login-form form input {
+        width: 80vw;
+        height: 10vh;
+    }
+
+    .login-form form label {
+        margin-right: 65vw;
+    }
+
+    .login-form form #email-label {
+        margin-right: 66vw;
+    }
+
+    .login-form form button {
+        width: 50vw;
+    }
+
+    .login-form form p {
+        margin-left: 0%;
+    }
+
+    .login-title {
+        height: 10vh;
+    }
+}
