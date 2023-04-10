@@ -22,9 +22,9 @@ const Login = () => {
                     <div className="login-form">
                         <form method="POST" action="javascript:void(0);">
                             <label for="email" id="email-label">Email</label>
-                            <input type="text" autoComplete="do-not-autofill" name="username" id="email" />
+                            <input type="email" autoComplete="off" name="username" id="email" />
                             <label for="password">Senha</label>
-                            <input type="password" autoComplete="do-not-autofill" name="password" id="pass" />
+                            <input type="password" autoComplete="off" name="password" id="pass" />
                             <p>Esqueceu a senha?</p>
                             <button id="sign">Entrar</button>
                         </form>
