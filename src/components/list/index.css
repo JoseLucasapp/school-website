@@ -1,0 +1,63 @@
+.list-main {
+    width: 70vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 55vh;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vh;
+    width: 50vw;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+li div {
+    display: flex;
+    flex-direction: row;
+    height: 8vh;
+    align-items: center;
+}
+
+.list-div1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30vw;
+}
+
+.list-div2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 17vw;
+}
+
+.list-div2 button {
+    width: 8vw;
+    height: 5vh;
+    border: 1px solid transparent;
+    border-radius: 35px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.list-div2 #del {
+    background-color: #df0000;
+}
+
+.list-div1 #list-name {
+    font-weight: bold;
+}
