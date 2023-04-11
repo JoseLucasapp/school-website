@@ -11,6 +11,11 @@
     width: 40vw;
 }
 
+.topbar-logo p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
 .topbar-options {
     width: 20vw;
     display: flex;
@@ -24,9 +29,40 @@
     border-radius: 30px;
     border: 1px solid transparent;
     cursor: pointer;
-    width: 10vw;
-    height: 7vh;
+    width: 7vw;
+    height: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 1000px) {
+    .topbar-main {
+        margin-top: 0px;
+        width: 100vw;
+    }
+
+    .topbar-logo {
+        width: 50vw;
+        text-align: start;
+    }
+
+    .topbar-logo p {
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+
+    .topbar-options {
+        width: 50vw;
+        justify-content: end;
+    }
+
+    .topbar-options .topbar-logout {
+        width: 20vw;
+        border-radius: 20px;
+        height: 3vh;
+        margin-right: 5px;
+        font-size: 15px;
+    }
 }

@@ -1,11 +1,11 @@
 import React from "react";
 import './index.css'
 
-const TopBar = () => {
+const TopBar = ({ responsive, responsiveTitle }) => {
     return (
         <div className="topbar-main">
             <div className="topbar-logo">
-                <h1>Administração escolar</h1>
+                <p>{responsive ? `${responsiveTitle} List` : 'Administração escolar'}</p>
             </div>
             <div className="topbar-options">
                 <div className="topbar-logout">

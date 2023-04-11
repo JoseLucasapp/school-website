@@ -1,6 +1,6 @@
 .list-main {
     width: 70vw;
-    height: 60vh;
+    height: 55vh;
     display: flex;
     justify-content: center;
 }
@@ -60,4 +60,44 @@ li div {
 
 .list-div1 #list-name {
     font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+    .list-main {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    ul {
+        width: 100vw;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    li {
+        width: 80vw;
+        margin-left: -40px;
+    }
+
+    .list-div1 {
+        width: 50vw;
+        font-size: 15px;
+    }
+
+    .list-div2 {
+        width: 25vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .list-div2 button {
+        width: 17vw;
+        height: 3vh;
+        font-size: 14px;
+    }
+
+    .list-div1 #list-email {
+        display: none;
+    }
 }
