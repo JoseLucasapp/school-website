@@ -63,3 +63,33 @@
 span {
     font-weight: 600;
 }
+
+@media (max-width: 1000px) {
+
+    .item-data {
+        width: 100vw;
+        margin-top: 0vh;
+        border-radius: 0px;
+        height: 100vh;
+    }
+
+    .item-data #item-name {
+        font-size: 25px;
+    }
+
+    .item-subitens {
+        width: 100vw;
+        text-align: center;
+    }
+
+    .item-data .item-buttons {
+        position: absolute;
+        bottom: 0px;
+        margin-bottom: 100px;
+        width: 70vw;
+    }
+
+    .item-buttons button {
+        width: 30vw;
+    }
+}
