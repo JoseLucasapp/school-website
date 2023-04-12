@@ -4,6 +4,8 @@ import TopBar from '../../components/topbar'
 
 import { schools } from '../../data/data'
 
+import { deleteItem } from '../../helpers/utils'
+
 const Item = () => {
     return (
         <div className='item-main'>
@@ -18,7 +20,7 @@ const Item = () => {
                 </div>
                 <div className='item-buttons'>
                     <button id='update'>Editar</button>
-                    <button id='delete'>Apagar</button>
+                    <button id='delete' onClick={() => deleteItem('i')}>Apagar</button>
                 </div>
             </div>
         </div>

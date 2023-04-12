@@ -8,6 +8,7 @@ import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArro
 import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrowLeft';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import { deleteItem } from "../../helpers/utils";
 
 const Home = ({ user = 'ADMIN' }) => {
     const [listData, setListData] = useState([])
@@ -28,7 +29,7 @@ const Home = ({ user = 'ADMIN' }) => {
                 <p>{list.phone}</p>
             </div>
             <div className="list-div2">
-                <button id="del">Apagar</button>
+                <button id="del" onClick={() => deleteItem('i')}>Apagar</button>
                 <button>Editar</button>
             </div>
         </li>
