@@ -36,6 +36,7 @@ li div {
     flex-direction: row;
     justify-content: space-between;
     width: 30vw;
+    cursor: pointer;
 }
 
 .list-div2 {

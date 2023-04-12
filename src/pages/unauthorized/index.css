@@ -1,0 +1,41 @@
+.unau-main {
+    background-color: var(--color2);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.unau-icon {
+    width: 80vw;
+    height: 60vh;
+}
+
+.unau-icon img {
+    width: 30%;
+}
+
+.unau-text {
+    width: 80vw;
+    height: 20vh;
+    font-size: 50px;
+}
+
+@media (max-width: 1000px) {
+
+    .unau-icon {
+        width: 100vw;
+        height: 40vh;
+    }
+
+    .unau-icon img {
+        width: 70%;
+    }
+
+    .unau-text {
+        font-size: 30px;
+        width: 100vw;
+    }
+}
