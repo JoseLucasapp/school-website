@@ -2,7 +2,8 @@ export const schools = [
     {
         name: 'Escola1',
         email: 'escola1@escola.com',
-        phone: '(83) 9 9999-9999'
+        phone: '(83) 9 9999-9999',
+        role: 'School'
     },
     {
         name: 'Escola2',

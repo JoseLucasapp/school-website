@@ -53,6 +53,8 @@ li div {
     border-radius: 35px;
     font-size: 17px;
     cursor: pointer;
+    background-color: var(--color5);
+    font-weight: 600;
 }
 
 .list-div2 #del {
