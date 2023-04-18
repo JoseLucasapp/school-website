@@ -1,5 +1,6 @@
 import React from "react"
 import "./index.css"
+import { Link } from "react-router-dom"
 
 const Login = () => {
     const phrase = 'A experiência é uma escola onde são caras as lições, mas em nenhuma outra os tolos podem aprender.'
@@ -26,7 +27,7 @@ const Login = () => {
                             <label for="password">Senha</label>
                             <input type="password" autoComplete="off" name="password" id="pass" />
                             <p>Esqueceu a senha?</p>
-                            <button id="sign">Entrar</button>
+                            <Link to={'/menu'} style={{ display: 'flex', flexDirection: 'row', width: '100%', height: '10vh', justifyContent: 'center' }}><button id="sign">Entrar</button></Link>
                         </form>
                     </div>
                 </div>

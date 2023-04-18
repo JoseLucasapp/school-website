@@ -37,6 +37,10 @@
     font-weight: 600;
 }
 
+.topbar-logout:hover {
+    box-shadow: 0px 0px 5px 0px black;
+}
+
 @media (max-width: 1000px) {
     .topbar-main {
         margin-top: 0px;
